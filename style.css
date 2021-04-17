@@ -11,8 +11,8 @@ font-family: 'Poppins';
 @media only screen and (min-width: 1440px) {
   body {
     background-image: url("./images/bg-desktop.svg");
-    background-size: 95%;
-    background-position: left top;
+    background-position: none;
+    background-repeat: none;
   }
 }
 
@@ -224,6 +224,7 @@ margin-right: 14px;
     margin-top: 2%;
     text-align: right;
     margin-right: 1%;
+    margin-bottom: 1%;
   }
 
   .fa-facebook-f {
