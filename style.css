@@ -11,8 +11,7 @@ font-family: 'Poppins';
 @media only screen and (min-width: 1440px) {
   body {
     background-image: url("./images/bg-desktop.svg");
-    background-position: none;
-    background-repeat: none;
+    background-size: 100%;
   }
 }
 
@@ -28,7 +27,7 @@ font-family: 'Poppins';
 @media only screen and (min-width: 1440px) {
   .logo img {
     width: 15%;
-    padding: 3.5% 0 0 5%;
+    padding: 3% 0 0 5%;
   }
 }
 
@@ -89,7 +88,7 @@ padding: 11% 11% 0 11%;
 
 @media only screen and (min-width: 1440px) {
   .text {
-  padding: 0 4% 8% 18%;
+  padding: 0 4% 9% 18%;
   }
 }
 
@@ -102,12 +101,12 @@ font-weight: 200;
 
 @media only screen and (min-width: 1440px) {
   p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   }
 
   h1 {
-    font-size: 42px;
+    font-size: 38px;
     padding-right: 50px;
     line-height: 1.5;
   }
@@ -151,7 +150,7 @@ font-weight: 200;
        .button:link, .button:visited {
         background-color: white;
         color: hsl(257, 40%, 49%);
-        padding: 20px 80px;
+        padding: 15px 75px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -223,8 +222,8 @@ margin-right: 14px;
   .social {
     margin-top: 2%;
     text-align: right;
-    margin-right: 1%;
-    margin-bottom: 1%;
+    margin-right: 2%;
+    padding-bottom: 2%;
   }
 
   .fa-facebook-f {
