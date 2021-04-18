@@ -11,8 +11,8 @@ font-family: 'Poppins';
 @media only screen and (min-width: 1440px) {
   body {
     background-image: url("./images/bg-desktop.svg");
-    background-position: top left;
-    background-size: 92%;
+    background-position: left top;
+    background-size: 95%;
   }
 }
 
@@ -21,7 +21,7 @@ font-family: 'Poppins';
 /* ======= LOGO  =======*/
 
 .logo img {
-  width: 260px;
+  width: 120px;
   padding: 8% 0 0 8%;
 }
 
@@ -60,7 +60,7 @@ font-family: 'Poppins';
 
 .illustration {
   display: flex;
-  padding: 16% 8% 0 8%;
+  padding: 14% 8% 0 8%;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -84,21 +84,30 @@ font-family: 'Poppins';
 }
 
 .text {
-padding: 11% 11% 0 11%;
+padding: 11% 8% 0 8%;
 }
 
 @media only screen and (min-width: 1440px) {
   .text {
-  padding: 0 4% 9% 18%;
+  padding: 0 14% 9% 18%;
   }
 }
 
 
 p {
 font-family: 'Poppins', sans-serif;
-font-size: 30px;
+font-size: 16px;
 font-weight: 200;
+line-height: 1.4;
 }
+
+h1 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+
+
 
 @media only screen and (min-width: 1440px) {
   p {
@@ -117,6 +126,7 @@ font-weight: 200;
 /* ======= BUTTON  =======*/
 
 .button {
+  font-size: 12px;
   margin-top: 6%;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
@@ -125,7 +135,7 @@ font-weight: 200;
    .button:link, .button:visited {
     background-color: white;
     color: hsl(257, 40%, 49%);
-    padding: 25px 150px;
+    padding: 10px 60px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -169,15 +179,17 @@ font-weight: 200;
 
 
 /* ======= SOCIAL MEDIA  =======*/
+
+
 .fab {
-  font-size: 26px;
+  font-size: 14px;
   width: 6%;
   color: white;
   text-align: center;
   text-decoration: none;
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 100px;
-  padding: 22px 5px;
+  padding: 6px 2px;
 }
 
 .fab:hover {
@@ -188,6 +200,8 @@ font-weight: 200;
 .social {
   margin-top: 17%;
   text-align: center;
+  width: 100%;
+  margin-bottom: 12%;
 }
 
 .fa-facebook-f {
@@ -221,9 +235,9 @@ margin-right: 14px;
   }
 
   .social {
-    margin-top: 0;
     text-align: right;
-    margin-right: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .fa-facebook-f {
@@ -235,7 +249,7 @@ margin-right: 14px;
   }
 
   .fa-instagram {
-  margin-right: 0;
+  margin-right: 5%;
   }
 }
 
